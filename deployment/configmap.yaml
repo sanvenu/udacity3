@@ -1,9 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: sv-db-configmap
-data:
-  DB_NAME: "svdatabase"
-  DB_USERNAME: "dbuser"
-  DB_HOST: "postgresql-service"
-  DB_PORT: "5432"
